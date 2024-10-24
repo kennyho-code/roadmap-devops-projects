@@ -1,0 +1,13 @@
+# Sample Log File - system_log.txt
+# Format: [Timestamp] [Log Level] [Source] [Message]
+
+2024-10-24 08:15:23 INFO    AuthService      User 'john_doe' logged in successfully.
+2024-10-24 08:16:45 WARN    AuthService      Failed login attempt for user 'jane_smith' from IP 192.168.1.101.
+2024-10-24 08:17:02 INFO    UserService      User 'john_doe' updated profile information.
+2024-10-24 08:18:10 ERROR   PaymentService    Payment processing failed for transaction ID 12345: Insufficient funds.
+2024-10-24 08:19:05 INFO    OrderService      New order created by user 'john_doe', order ID: 54321.
+2024-10-24 08:20:00 INFO    InventoryService  Stock updated for product ID 67890: New stock level is 150.
+2024-10-24 08:21:30 WARN    AuthService      User 'jane_smith' account locked after 3 failed attempts.
+2024-10-24 08:22:15 INFO    NotificationService Sent email notification to user 'john_doe'.
+2024-10-24 08:23:40 INFO    SystemMonitor     CPU usage exceeded 85%: current usage is 90%.
+2024-10-24 08:24:50 INFO    SystemCleanup     Temporary files cleaned up: 50 files deleted.
