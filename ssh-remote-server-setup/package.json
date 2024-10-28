@@ -1,0 +1,12 @@
+{
+    "name": "ssh-remote-server-setup",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/digitalocean": "^4.34.0",
+        "@pulumi/pulumi": "^3.113.0"
+    }
+}
