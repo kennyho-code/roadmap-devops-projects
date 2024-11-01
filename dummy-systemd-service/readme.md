@@ -1,0 +1,3 @@
+- systemctl => ongoing processes
+- journalctl => logs processes, more for error handling, start stops
+- var/log/yourlogs.log => the logs that you actually pipe
